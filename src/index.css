@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .btn {
+    @apply px-10 py-4 rounded-full text-white text-base font-black leading-[1.625rem];
+  }
+}

@@ -3,14 +3,18 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      man: ["Manrope"],
+      red: ["Red Hat Display"],
     },
     extend: {
       colors: {
-        "light-blue":"#ECF2F8",
-        "dark-gray":"#48556A",
-        "gray":"#87879D",
-        "light-gray":"#9DAEC2",
+        black: "#28283D",
+        gray: "#87879D",
+        green: "#4D96A9",
+        purple: "#855FB1",
+        "light-green": "#71C0D4",
+        "light-blue": "#8FE3F9",
+        "light-purple": "#D9B8FF",
+        "light-pink": "#B18BDD",
       },
     },
   },
