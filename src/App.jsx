@@ -4,7 +4,7 @@ import Circle from "./components/Circle";
 function App() {
   return (
     <main className="min-h-screen max-w-[98rem] mx-auto font-red flex flex-col justify-center items-center">
-      <img src="/images/logo.svg" className="my-12" alt="logo"/>
+      <img src="/images/logo.svg" className="my-12" alt="logo" />
       <header className="grid grid-cols-[minmax(0,1fr)_2fr_2fr_minmax(0,1fr)] lg:grid-cols-[minmax(0,1fr)_2fr_minmax(0,1fr)] gap-6 items-center justify-items-center">
         <img
           src="/images/desktop/image-hero-left.png"
@@ -34,7 +34,7 @@ function App() {
           </div>
         </div>
       </header>
-      <Circle number="01"/>
+      <Circle number="01" />
       <article>
         <section className="grid grid-cols-2 gap-6 p-6 md:grid-cols-4 lg:px-20">
           <img
@@ -72,8 +72,8 @@ function App() {
           </p>
         </section>
       </article>
-      <Circle number="02" className="mb-[-3rem] z-10 relative"/>
-      <footer className="bg-[url(/images/mobile/image-footer.jpg)] bg-no-repeat bg-cover lg:bg-[url(/images/desktop/image-footer.jpg)] w-full text-white px-6 py-24 flex flex-col lg:flex-row justify-center lg:justify-evenly lg:px-4 items-center bg-blend-multiply bg-green opacity-80">
+      <Circle number="02" className="mb-[-3rem] z-10 relative" />
+      <footer className="bg-[url(/images/mobile/image-footer.jpg)] bg-no-repeat bg-cover lg:bg-[url(/images/desktop/image-footer.jpg)] w-full text-white px-6 py-20 flex flex-col lg:flex-row justify-center lg:justify-evenly lg:px-4 items-center bg-blend-multiply bg-green opacity-80">
         <h3 className="text-[2rem] md:text-[2.5rem] font-black leading-9 md:leading-[2.75rem] my-4 lg:max-w-[20rem]">
           Experience more together
         </h3>
@@ -81,7 +81,7 @@ function App() {
           Stay connected with reliable HD meetings and unlimited one-on-one and
           group video sessions.
         </p>
-        <button className="btn bg-purple hover:bg-light-pink my-8">
+        <button className="btn bg-purple hover:bg-light-pink mt-8 lg:mt-2">
           Download<span className="text-light-purple"> v1.3</span>
         </button>
       </footer>
